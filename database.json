@@ -15,6 +15,15 @@
       "notes": "Ask Amy what kind of wine she wants me to pick up for her",
       "dateCreated": "3/4/2023",
       "completed": false
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "Kroger List",
+      "notes": "",
+      "dateCreated": "3/1/2023",
+      "dateCompleted": "3/2/2023",
+      "completed": true
     }
   ],
   "items": [
