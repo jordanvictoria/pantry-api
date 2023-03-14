@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Jordan Victoria",
+      "email": "jordan@victoria.com",
+      "password": "jordan"
+    }
+  ],
+  "lists": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Trader Joes List",
+      "notes": "Ask Amy what kind of wine she wants me to pick up for her",
+      "dateCreated": "3/4/2023",
+      "completed": false
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Blueberries",
+      "categoryId": 1,
+      "price": 4
+    }
+  ],
+  "listItems": [
+    {
+      "id": 1,
+      "listId": 1,
+      "itemId": 1,
+      "quantity": 2,
+      "priority": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Produce"
+    },
+    {
+      "id": 2,
+      "name": "Meat & Seafood"
+    },
+    {
+      "id": 3,
+      "name": "Beverages"
+    },
+    {
+      "id": 4,
+      "name": "Dairy & Eggs"
+    },
+    {
+      "id": 5,
+      "name": "Bakery"
+    },
+    {
+      "id": 6,
+      "name": "Deli"
+    },
+    {
+      "id": 7,
+      "name": "Frozen Foods"
+    },
+    {
+      "id": 8,
+      "name": "Cleaning & Household"
+    },
+    {
+      "id": 9,
+      "name": "Pantry"
+    },
+    {
+      "id": 10,
+      "name": "Pet"
+    },
+    {
+      "id": 11,
+      "name": "Baby"
+    },
+    {
+      "id": 12,
+      "name": "Miscellaneous"
+    }
+  ]
+}
