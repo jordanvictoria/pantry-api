@@ -9,12 +9,12 @@
   ],
   "lists": [
     {
-      "id": 1,
       "userId": 1,
       "name": "Trader Joes List",
       "notes": "Ask Amy what kind of wine she wants me to pick up for her",
       "dateCreated": "3/4/2023",
-      "completed": false
+      "completed": false,
+      "id": 1
     },
     {
       "id": 2,
@@ -24,6 +24,15 @@
       "dateCreated": "3/1/2023",
       "dateCompleted": "3/2/2023",
       "completed": true
+    },
+    {
+      "userId": 1,
+      "name": "new list",
+      "notes": "",
+      "dateCreated": "3/15/2023",
+      "completed": true,
+      "dateCompleted": "3/15/2023",
+      "id": 3
     }
   ],
   "items": [
@@ -33,6 +42,13 @@
       "name": "Blueberries",
       "categoryId": 1,
       "price": 4
+    },
+    {
+      "userId": 1,
+      "name": "Apple",
+      "categoryId": 1,
+      "price": 3,
+      "id": 2
     }
   ],
   "listItems": [
@@ -42,6 +58,13 @@
       "itemId": 1,
       "quantity": 2,
       "priority": false
+    },
+    {
+      "listId": 1,
+      "quantity": 3,
+      "priority": true,
+      "itemId": 2,
+      "id": 2
     }
   ],
   "categories": [
