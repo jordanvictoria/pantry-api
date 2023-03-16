@@ -24,15 +24,6 @@
       "dateCreated": "3/1/2023",
       "dateCompleted": "3/2/2023",
       "completed": true
-    },
-    {
-      "userId": 1,
-      "name": "new list",
-      "notes": "",
-      "dateCreated": "3/15/2023",
-      "completed": true,
-      "dateCompleted": "3/15/2023",
-      "id": 3
     }
   ],
   "items": [
@@ -45,10 +36,17 @@
     },
     {
       "userId": 1,
-      "name": "Apple",
+      "name": "Salmon",
+      "categoryId": 2,
+      "price": 12,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "name": "Apples",
       "categoryId": 1,
       "price": 3,
-      "id": 2
+      "id": 3
     }
   ],
   "listItems": [
@@ -61,9 +59,9 @@
     },
     {
       "listId": 1,
-      "quantity": 3,
+      "quantity": 2,
       "priority": true,
-      "itemId": 2,
+      "itemId": 3,
       "id": 2
     }
   ],
