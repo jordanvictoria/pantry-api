@@ -17,13 +17,21 @@
       "id": 1
     },
     {
-      "id": 2,
       "userId": 1,
       "name": "Kroger List",
       "notes": "",
       "dateCreated": "3/1/2023",
-      "dateCompleted": "3/2/2023",
-      "completed": true
+      "completed": true,
+      "dateCompleted": "3/17/2023",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "name": "Easter Shopping List",
+      "notes": "Check app for deals",
+      "dateCreated": "3/17/2023",
+      "completed": false,
+      "id": 3
     }
   ],
   "items": [
@@ -47,6 +55,20 @@
       "categoryId": 1,
       "price": 3,
       "id": 3
+    },
+    {
+      "userId": 1,
+      "name": "Dave's Bread",
+      "categoryId": 5,
+      "price": 6,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "name": "Eggs",
+      "categoryId": 4,
+      "price": 8,
+      "id": 5
     }
   ],
   "listItems": [
