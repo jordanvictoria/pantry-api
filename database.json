@@ -5,6 +5,12 @@
       "fullName": "Jordan Victoria",
       "email": "jordan@victoria.com",
       "password": "jordan"
+    },
+    {
+      "id": 2,
+      "fullName": "Jordan Victoria",
+      "email": "nadroj@victoria.com",
+      "password": "jordan"
     }
   ],
   "lists": [
@@ -24,14 +30,6 @@
       "completed": true,
       "dateCompleted": "3/17/2023",
       "id": 2
-    },
-    {
-      "userId": 1,
-      "name": "Easter Shopping List",
-      "notes": "Check app for deals",
-      "dateCreated": "3/17/2023",
-      "completed": false,
-      "id": 3
     }
   ],
   "items": [
@@ -40,14 +38,7 @@
       "userId": 1,
       "name": "Blueberries",
       "categoryId": 1,
-      "price": 4
-    },
-    {
-      "userId": 1,
-      "name": "Salmon",
-      "categoryId": 2,
-      "price": 12,
-      "id": 2
+      "price": "5"
     },
     {
       "userId": 1,
@@ -57,7 +48,7 @@
       "id": 3
     },
     {
-      "userId": 1,
+      "userId": 2,
       "name": "Dave's Bread",
       "categoryId": 5,
       "price": 6,
@@ -65,10 +56,24 @@
     },
     {
       "userId": 1,
-      "name": "Eggs",
-      "categoryId": 4,
-      "price": 8,
-      "id": 5
+      "name": "Chicken",
+      "categoryId": 2,
+      "price": 12,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "name": "Decaf Coffee Beans",
+      "categoryId": 3,
+      "price": 13,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "name": "Cereal",
+      "categoryId": 9,
+      "price": 5,
+      "id": 8
     }
   ],
   "listItems": [
@@ -85,6 +90,27 @@
       "priority": true,
       "itemId": 3,
       "id": 2
+    },
+    {
+      "listId": 1,
+      "quantity": 1,
+      "priority": true,
+      "itemId": 6,
+      "id": 3
+    },
+    {
+      "listId": 1,
+      "quantity": "1",
+      "priority": false,
+      "itemId": 8,
+      "id": 4
+    },
+    {
+      "listId": 1,
+      "quantity": "1",
+      "priority": false,
+      "itemId": 7,
+      "id": 5
     }
   ],
   "categories": [
